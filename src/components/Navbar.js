@@ -11,6 +11,12 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-black max-sm:ml-3 max-sm:text-xs max-sm:items-start flex flex-wrap items-center text-base justify-center">
+          <a href="https://github.com/jordung">
+            <img
+              src="./github.png"
+              className="w-8 mr-5 hover:opacity-50 max-sm:w-4"
+            />
+          </a>
           <a href="#about" className="mr-5 text-gray-800 hover:text-gray-400">
             About
           </a>
