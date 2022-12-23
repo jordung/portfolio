@@ -1,5 +1,6 @@
 import Typed from "react-typed";
 import { React } from "react";
+import profile from "../assets/jordan-hero.JPG";
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
           <img
             className="object-cover object-center rounded-full border-8 border-black"
             alt="profile"
-            src="./jordan.jpg"
+            src={profile}
           />
         </div>
         <div className="lg:flex-grow lg:pr-24 md:pr-16 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center my-5">
