@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3a6e6568.css",
-    "main.js": "/react-portfolio/static/js/main.55fdb165.js",
+    "main.css": "/react-portfolio/static/css/main.462996ae.css",
+    "main.js": "/react-portfolio/static/js/main.b70941ac.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/jordan.jpg": "/react-portfolio/static/media/jordan.7937cca6786d026c68e4.jpg",
     "static/media/jordan-hero.JPG": "/react-portfolio/static/media/jordan-hero.254449048833f9697c2f.JPG",
     "static/media/etch-a-sketch.png": "/react-portfolio/static/media/etch-a-sketch.6e809124e491e143bb65.png",
     "static/media/jordan_ang_resume_2022.docx": "/react-portfolio/static/media/jordan_ang_resume_2022.514b33624333d2b3f24f.docx",
     "index.html": "/react-portfolio/index.html",
-    "main.3a6e6568.css.map": "/react-portfolio/static/css/main.3a6e6568.css.map",
-    "main.55fdb165.js.map": "/react-portfolio/static/js/main.55fdb165.js.map",
+    "main.462996ae.css.map": "/react-portfolio/static/css/main.462996ae.css.map",
+    "main.b70941ac.js.map": "/react-portfolio/static/js/main.b70941ac.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6e6568.css",
-    "static/js/main.55fdb165.js"
+    "static/css/main.462996ae.css",
+    "static/js/main.b70941ac.js"
   ]
 }
