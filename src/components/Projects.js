@@ -1,11 +1,10 @@
-// import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
 export default function Projects() {
   return (
     <section id="projects" className="text-black-400 bg-white-900 body-font">
-      <div className="container px-5 py-28 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-28 mx-auto text-center lg:px-40 max-sm:py-5">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-black">
             Projects
@@ -19,12 +18,12 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="w-100 xl:w-1/2 p-4 saturate-0 transition hover:saturate-100"
+              className="w-100 2xl:w-1/2 xl:w-4/5 p-4 saturate-0 transition hover:saturate-100"
             >
               <div className="flex flex-row max-sm:flex-col max-sm:items-center">
                 <img
-                  alt="gallery"
-                  className="w-1/2 max-md:w-200 h-auto border-4 border-black rounded-3xl"
+                  alt={project.title}
+                  className="w-1/2 max-md:w-1/2 h-auto border-4 border-black rounded-3xl"
                   src={project.image}
                 />
                 <div className="px-8 py-10 max-sm:pt-5 w-full bg-white">

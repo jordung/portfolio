@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../assets/jordan_ang_resume_2022.docx";
+import github from "../assets/github.png";
 
 export default function Navbar() {
   return (
@@ -13,8 +14,9 @@ export default function Navbar() {
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-black max-sm:ml-3 max-sm:text-xs max-sm:items-start flex flex-wrap items-center text-base justify-center">
           <a href="https://github.com/jordung">
             <img
-              src="./github.png"
+              src={github}
               className="w-8 mr-5 hover:opacity-50 max-sm:w-4"
+              alt="github logo"
             />
           </a>
           <a href="#about" className="mr-5 text-gray-800 hover:text-gray-400">
@@ -28,6 +30,10 @@ export default function Navbar() {
           </a>
           <a href="#skills" className="mr-5 text-gray-800 hover:text-gray-400">
             Skills
+          </a>
+
+          <a href="#contact" className="mr-5 text-gray-800 hover:text-gray-400">
+            Contact
           </a>
         </nav>
         <a

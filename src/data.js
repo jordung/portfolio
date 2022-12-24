@@ -1,10 +1,10 @@
 export const projects = [
   {
     title: "Etch-A-Sketch",
-    subtitle: "Javascript Practice",
+    subtitle: "Javascript",
     description:
       "Understanding of functions and DOM manipulation skills. Project credit: TheOdinProject.",
-    image: "./etch-a-sketch.png",
+    image: require("./assets/etch-a-sketch.png"),
     link: "https://github.com/jordung/etch-a-sketch",
   },
 ];
