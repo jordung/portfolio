@@ -5,7 +5,7 @@ import profile from "../assets/jordan-hero.JPG";
 export default function Hero() {
   return (
     <section id="hero">
-      <div className="container mx-auto px-40 py-28 h-screen flex flex-col items-left max-sm:items-center">
+      <div className="container mx-auto max-sm:px-20 px-40 py-28 h-screen flex flex-col items-left max-sm:items-center max-sm:justify-center">
         <div className="w-60">
           <img
             className="object-cover object-center rounded-full border-8 border-black"

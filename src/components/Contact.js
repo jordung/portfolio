@@ -1,10 +1,12 @@
 import React from "react";
+import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 
 export default function Contact() {
   return (
     <section id="contact" className="text-black-400 bg-white-900 body-font">
       <div className="ccontainer px-5 py-28 mx-auto text-center lg:px-40 max-sm:py-5">
         <div className="flex flex-col w-full mb-20 items-center">
+          <ChatBubbleOvalLeftEllipsisIcon className="max-sm:h-5 max-sm:mb-1 h-9 w-auto text-gray-300 mb-3" />
           <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-black">
             Contact me!
           </h1>

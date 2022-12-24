@@ -1,11 +1,13 @@
 import React from "react";
 import { skills } from "../data";
+import { TicketIcon } from "@heroicons/react/24/outline";
 
 export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-20 mx-auto max-sm:py-5 xl:px-40">
-        <div className="text-center mb-20">
+        <div className="text-center mb-20 flex flex-col items-center">
+          <TicketIcon className="max-sm:h-5 max-sm:mb-1 h-9 w-auto text-gray-300 mb-3" />
           <h1 className="sm:text-4xl text-3xl font-bold title-font text-black mb-4">
             Skills &amp; Technologies
           </h1>
