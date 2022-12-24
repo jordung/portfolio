@@ -4,7 +4,7 @@ import picture from "../assets/jordan.jpg";
 export default function About() {
   return (
     <section id="about" className="text-black-400 bg-white-900 body-font">
-      <div className="container px-5 mx-auto text-center lg:px-40">
+      <div className="container px-5 mx-auto text-center xl:px-40">
         <div className="flex flex-col w-full mb-20 items-center">
           <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-black">
             About Me
