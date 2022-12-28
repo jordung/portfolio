@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Sociopedia",
+    subtitle: "MERN Stack",
+    description:
+      "Using the MERN stack to create a fully functioning social media application. ",
+    image: require("./assets/mern-social-media.png"),
+    link: "https://github.com/jordung/mern-social-media/",
+  },
+  {
     title: "Etch-A-Sketch",
     subtitle: "Javascript",
     description:
