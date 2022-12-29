@@ -20,6 +20,7 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
+              target="_blank"
               className="w-100 2xl:w-1/2 xl:w-4/5 p-4 saturate-0 transition hover:saturate-100"
             >
               <div className="flex flex-row max-sm:flex-col max-sm:items-center">
