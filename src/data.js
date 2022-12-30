@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Disney+ Clone",
+    subtitle: "React & Firebase",
+    description: "Created a Disney+ clone using React and Firebase!",
+    image: require("./assets/disney-plus-clone.png"),
+    link: "https://github.com/jordung/react-disney-clone",
+  },
+  {
     title: "Sociopedia",
     subtitle: "MERN Stack",
     description:
