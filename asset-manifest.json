@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e0cdc9e4.css",
-    "main.js": "/portfolio/static/js/main.af9bee0e.js",
+    "main.js": "/portfolio/static/js/main.5c287496.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jordan.jpg": "/portfolio/static/media/jordan.7937cca6786d026c68e4.jpg",
     "static/media/disney-plus-clone.png": "/portfolio/static/media/disney-plus-clone.49abc2c7bc6c812548b7.png",
     "static/media/jordan-hero.JPG": "/portfolio/static/media/jordan-hero.254449048833f9697c2f.JPG",
     "static/media/mern-social-media.png": "/portfolio/static/media/mern-social-media.205ab2fadca76bbb08c7.png",
+    "static/media/jordan_ang_resume.pdf": "/portfolio/static/media/jordan_ang_resume.76622a67b76dfaf96785.pdf",
     "static/media/etch-a-sketch.png": "/portfolio/static/media/etch-a-sketch.6e809124e491e143bb65.png",
-    "static/media/jordan_ang_resume_2022.docx": "/portfolio/static/media/jordan_ang_resume_2022.514b33624333d2b3f24f.docx",
     "index.html": "/portfolio/index.html",
     "main.e0cdc9e4.css.map": "/portfolio/static/css/main.e0cdc9e4.css.map",
-    "main.af9bee0e.js.map": "/portfolio/static/js/main.af9bee0e.js.map",
+    "main.5c287496.js.map": "/portfolio/static/js/main.5c287496.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0cdc9e4.css",
-    "static/js/main.af9bee0e.js"
+    "static/js/main.5c287496.js"
   ]
 }
