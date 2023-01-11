@@ -21,7 +21,7 @@ export default function Hero() {
             I am a <br />
             <Typed
               strings={[
-                "Front-End Web Enthusiast.",
+                "Front-End Enthusiast.",
                 "Coffee Lover.",
                 "Photographer.",
                 "F1 Fanatic.",

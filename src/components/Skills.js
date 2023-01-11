@@ -15,7 +15,7 @@ export default function Skills() {
             Here is a list of my skills!
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 max-sm:text-sm">
+        <div className="flex flex-wrap lg:w-[650px] sm:mx-auto sm:mb-2 -mx-2 max-sm:text-sm">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-100 saturate-0 rounded flex p-4 h-full items-center transition hover:saturate-100">

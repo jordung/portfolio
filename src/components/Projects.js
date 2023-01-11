@@ -15,34 +15,60 @@ export default function Projects() {
             Here are some of my projects!
           </p>
         </div>
-        <div className="flex flex-col -m-4 items-center">
+        <div className="flex flex-col items-center gap-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              target="_blank"
-              rel="noreferrer"
-              className="w-100 2xl:w-1/2 xl:w-4/5 p-4 saturate-0 transition hover:saturate-100"
-            >
-              <div className="flex flex-row max-sm:flex-col max-sm:items-center">
-                <img
-                  alt={project.title}
-                  className="w-1/2 max-md:w-1/2 h-auto border-4 border-black rounded-3xl"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 max-sm:pt-5 w-full bg-white">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-black-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-bold text-black mb-3 typewriter">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed text-black text-sm">
-                    {project.description}
-                  </p>
+            <div className="h-200 w-[650px] max-sm:w-[325px]  flex flex-col justify-center items-center pb-10 rounded shadow-lg">
+              <div className="flex flex-col justify-center items-center mt-0">
+                <div className="w-[650px] h-[320px] max-sm:w-[325px] max-sm:h-[160px]">
+                  <img
+                    alt={project.title}
+                    src={project.image}
+                    className="w-full h-full object-covers"
+                  />
                 </div>
               </div>
-            </a>
+              <div className="w-full px-10">
+                <h1 className="title-font text-2xl font-black text-black mt-3 mb-0 max-sm:text-lg w-full text-left">
+                  {project.title}
+                </h1>
+                <p className="leading-relaxed text-black text-sm text-left">
+                  {project.description}
+                </p>
+                <div className="pt-4 w-full flex flex-start flex-wrap gap-2">
+                  {project.skills.map((skill) => (
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 max-sm:mr-0">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex mt-1">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="relative inline-flex items-center justify-center p-0.5 my-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white focus:ring-1 focus:outline-none focus:ring-cyan-200 text-black"
+                  >
+                    <span className="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0">
+                      Github
+                    </span>
+                  </a>
+                  {project.website ? (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="relative inline-flex items-center justify-center p-0.5 my-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-1 focus:outline-none focus:ring-pink-200 text-black"
+                    >
+                      <span className="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0">
+                        Website
+                      </span>
+                    </a>
+                  ) : (
+                    <></>
+                  )}
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>

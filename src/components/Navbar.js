@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/jordan_ang_resume_2022.docx";
+import resume from "../assets/jordan_ang_resume.pdf";
 import github from "../assets/github.png";
 
 export default function Navbar() {
@@ -7,7 +7,7 @@ export default function Navbar() {
     <header className="bg-white sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap max-sm:flex-row max-sm:justify-center max-sm:py-3 max-sm:px-0 p-5 flex-row items-center">
         <a className="title-font font-medium text-gray-800 mb-4 max-sm:mb-0 md:mb-0">
-          <a href="#hero" className="ml-3 text-xl max-sm:text-xs max-sm:ml-0">
+          <a href="#hero" className="ml-3 text-xl max-sm:text-sm max-sm:ml-0">
             Jordan Ang
           </a>
         </a>
@@ -47,12 +47,14 @@ export default function Navbar() {
           </a>
         </nav>
         <a
-          className="inline-flex items-center justify-items-center bg-gray-200 border-0 py-1 px-3 max-sm:text-xs max-sm:mt-0 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0 text-black"
           href={resume}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          className="relative inline-flex items-center justify-center p-0.5 my-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white focus:ring-1 focus:outline-none focus:ring-cyan-200 text-black"
         >
-          Resume
+          <span className="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0">
+            Resume
+          </span>
         </a>
       </div>
     </header>

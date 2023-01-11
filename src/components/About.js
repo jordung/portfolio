@@ -17,7 +17,7 @@ export default function About() {
             className="w-1/6 rounded-lg mb-5 border-4 border-gray-400 max-sm:w-1/2"
             alt="jordan"
           />
-          <p className="lg:w-2/3 mx-auto max-sm:text-sm leading-relaxed text-base -mb-12 text-left">
+          <p className="lg:w-[650px] mx-auto max-sm:text-sm leading-relaxed text-base -mb-12 text-left">
             Hello! I'm Jordan, a hopeful front-end development enthusiast.
             <br /> <br />
             I am a recent graduate from Nanyang Technological University, and

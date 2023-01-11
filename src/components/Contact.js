@@ -13,12 +13,14 @@ export default function Contact() {
           <p className="lg:w-2/3 mx-auto max-sm:text-sm leading-relaxed text-base -mb-12 text-center">
             Hey there, for a quick coffee chat, you can reach out to me at
             <em> jordanayd@gmail.com</em>
-            <div className="flex flex-col items-center my-5">
+            <div className="flex flex-col items-center my-2">
               <button
-                className="font-bold px-5 py-2 border-4 rounded-xl bg-gray-200 hover:bg-gray-300 hover:border-gray-300"
                 onClick={() => (window.location = "mailto:jordanayd@gmail.com")}
+                className="relative inline-flex items-center justify-center p-0.5 my-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-1 focus:outline-none focus:ring-pink-200 text-black"
               >
-                Email
+                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0">
+                  Email
+                </span>
               </button>
             </div>
           </p>
