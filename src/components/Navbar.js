@@ -13,7 +13,7 @@ export default function Navbar() {
         </a>
         {}
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-black max-sm:ml-3 max-sm:text-xs flex flex-wrap items-center text-base justify-center">
-          <a href="https://github.com/jordung">
+          <a href="https://github.com/jordung" target="_blank" rel="noreferrer">
             <img
               src={github}
               className="w-8 mr-5 hover:opacity-50 max-sm:w-5 max-sm:mr-3 max-sm:mb-0.5"

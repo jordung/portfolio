@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Chiller",
+    subtitle: "React & TailwindCSS",
+    description:
+      "Currently building a landing page for a Corporate Chat Application",
+    image: require("./assets/chiller.png"),
+    github: "https://github.com/jordung/react-chiller",
+    skills: ["react", "tailwindcss", "work-in-progress"],
+  },
+  {
     title: "Salted Butter",
     subtitle: "React & Netlify",
     description: "Built a homebake website from scratch for a friend :)",

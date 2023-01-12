@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Chivo+Mono");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins";
 }
