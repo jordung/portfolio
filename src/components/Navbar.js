@@ -31,19 +31,13 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <button onClick={() => window.location.replace("/#about")}>
-                About
-              </button>
+              <a href="#about">About</a>
             </li>
             <li>
-              <button onClick={() => window.location.replace("/#projects")}>
-                Projects
-              </button>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <button onClick={() => window.location.replace("/#contact")}>
-                Contact
-              </button>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -55,26 +49,26 @@ function Navbar() {
         </button>
       </div>
       <div className="hidden navbar-center xl:flex md:gap-4">
-        <button
+        <a
           className="btn btn-link no-underline font-medium hover:text-base-300 hover:no-underline transition-all duration-200"
-          onClick={() => window.location.replace("/#about")}
+          href="#about"
         >
           About
-        </button>
+        </a>
 
-        <button
+        <a
           className="btn btn-link no-underline font-medium hover:text-base-300 hover:no-underline transition-all duration-200"
-          onClick={() => window.location.replace("/#projects")}
+          href="#projects"
         >
           Projects
-        </button>
+        </a>
 
-        <button
+        <a
           className="btn btn-link no-underline font-medium hover:text-base-300 hover:no-underline transition-all duration-200"
-          onClick={() => window.location.replace("/#contact")}
+          href="#contact"
         >
           Contact
-        </button>
+        </a>
       </div>
       <div className=" navbar-end">
         <a
