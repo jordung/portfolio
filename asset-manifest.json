@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.43c9f9a4.css",
-    "main.js": "/portfolio/static/js/main.d536d35e.js",
+    "main.js": "/portfolio/static/js/main.4bb2dce8.js",
     "static/media/salted-butter.png": "/portfolio/static/media/salted-butter.602deddf765928a68bd3.png",
     "static/media/disney-plus-clone.png": "/portfolio/static/media/disney-plus-clone.6fad66fbc6fd1627c211.png",
     "static/media/woofly.png": "/portfolio/static/media/woofly.8a8532ceb188c2234bdb.png",
     "static/media/ketchup.png": "/portfolio/static/media/ketchup.ad9ef7a9d02b69f367be.png",
     "static/media/handshake.png": "/portfolio/static/media/handshake.ff26bd3a5159b4c1481a.png",
-    "static/media/jordan_ang_resume.pdf": "/portfolio/static/media/jordan_ang_resume.733812849366383c5665.pdf",
+    "static/media/jordan_ang_resume.pdf": "/portfolio/static/media/jordan_ang_resume.1f9ddeb5497c3c866d94.pdf",
     "static/media/to-do.png": "/portfolio/static/media/to-do.c398589ee6d883b9d9be.png",
     "index.html": "/portfolio/index.html",
     "main.43c9f9a4.css.map": "/portfolio/static/css/main.43c9f9a4.css.map",
-    "main.d536d35e.js.map": "/portfolio/static/js/main.d536d35e.js.map"
+    "main.4bb2dce8.js.map": "/portfolio/static/js/main.4bb2dce8.js.map"
   },
   "entrypoints": [
     "static/css/main.43c9f9a4.css",
-    "static/js/main.d536d35e.js"
+    "static/js/main.4bb2dce8.js"
   ]
 }
