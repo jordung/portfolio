@@ -4,7 +4,8 @@ export const projects = [
     subtitle: "React & NodeJS",
     description:
       "Asynchronous stand-up application to transcend time and geographical boundaries and keep your entire team on the same page!",
-    image: require("./assets/ketchup.png"),
+    image: require("./assets/images/ketchup.png"),
+    icon: require("./assets/icons/ketchup-logo.png"),
     github: "https://github.com/jordung/ketchup",
     website: "https://theketchupcorner.netlify.app/",
     skills: ["React", "TailwindCSS", "DaisyUI", "Express", "Framer-Motion"],
@@ -15,7 +16,8 @@ export const projects = [
     subtitle: "React & NodeJS",
     description:
       "A volunteering app connecting potential volunteers to organisers!",
-    image: require("./assets/handshake.png"),
+    image: require("./assets/images/handshake.png"),
+    icon: require("./assets/icons/handshake-logo.png"),
     github: "https://github.com/jordung/project-handshake",
     website: "https://project-handshake.netlify.app/",
     skills: ["React", "Tailwindcss", "DaisyUI", "Express"],
@@ -25,7 +27,8 @@ export const projects = [
     title: "Woofly",
     subtitle: "React & Firebase",
     description: "Twitter clone with a twist",
-    image: require("./assets/woofly.png"),
+    image: require("./assets/images/woofly.png"),
+    icon: require("./assets/icons/woofly-logo.png"),
     github: "https://github.com/jordung/project-2-bootcamp",
     website: "https://woofly-d08c1.web.app",
     skills: ["React", "Tailwindcss", "Firebase", "Axios"],
@@ -34,7 +37,7 @@ export const projects = [
     title: "To-Do",
     subtitle: "React & Bootstrap",
     description: "Minimalistic To-Do application that serves multiple users",
-    image: require("./assets/to-do.png"),
+    image: require("./assets/images/to-do.png"),
     github: "https://github.com/jordung/project-1-bootcamp",
     skills: ["React", "Bootstrap"],
   },
@@ -42,7 +45,8 @@ export const projects = [
     title: "Salted Butter",
     subtitle: "React & Netlify",
     description: "Built a homebake website from scratch for a friend :)",
-    image: require("./assets/salted-butter.png"),
+    image: require("./assets/images/salted-butter.png"),
+    icon: require("./assets/icons/salted-butter-logo.png"),
     github: "https://github.com/jordung/salted-butter",
     website: "https://salted-butter.netlify.app/",
     skills: ["React", "Styled-Components", "EmailJS"],
@@ -51,9 +55,22 @@ export const projects = [
     title: "Disney+ Clone",
     subtitle: "React & Firebase",
     description: "Created a Disney+ clone using React and Firebase!",
-    image: require("./assets/disney-plus-clone.png"),
+    image: require("./assets/images/disney-plus-clone.png"),
+    icon: require("./assets/icons/disney-plus-clone-logo.png"),
     github: "https://github.com/jordung/react-disney-clone",
     website: "https://disney-clone-af383.web.app/",
     skills: ["React", "Styled-Components"],
+  },
+];
+
+export const upcomingProjects = [
+  {
+    title: "Drigmo's Landing Page",
+    subtitle: "Crafting a landing page for social media app Drigmo!",
+    icon: require("./assets/icons/drigmo.png"),
+  },
+  {
+    title: "Rocket's Academy Bootcamp Scheduler",
+    subtitle: "Working with Rocket Academy to rebrand their schedules page",
   },
 ];

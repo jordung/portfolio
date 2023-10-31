@@ -19,8 +19,8 @@ function About() {
         </p>
         <p className="py-2 text-primary">
           When I'm not intensely typing in front of my macbook, I can usually be
-          found hiding in a corner reading, finding amazing coffee, or bringing
-          my camera out on an adventure.
+          found hiding in a corner reading 📖, enjoying music 🎼, finding
+          amazing coffee ☕️, or bringing my camera out on an adventure 📷.
         </p>
         <div className="pt-8 w-full">
           <p className="font-medium">Tech Stack</p>
