@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0cf8eaae.css",
-    "main.js": "/portfolio/static/js/main.8cd73935.js",
+    "main.css": "/portfolio/static/css/main.15323aea.css",
+    "main.js": "/portfolio/static/js/main.56762f63.js",
     "static/media/salted-butter.png": "/portfolio/static/media/salted-butter.602deddf765928a68bd3.png",
     "static/media/disney-plus-clone.png": "/portfolio/static/media/disney-plus-clone.6fad66fbc6fd1627c211.png",
     "static/media/woofly.png": "/portfolio/static/media/woofly.8a8532ceb188c2234bdb.png",
@@ -16,11 +16,11 @@
     "static/media/woofly-logo.png": "/portfolio/static/media/woofly-logo.36ea61be568987939c52.png",
     "static/media/ketchup-logo.png": "/portfolio/static/media/ketchup-logo.64f1cfc76535ddce2d9a.png",
     "index.html": "/portfolio/index.html",
-    "main.0cf8eaae.css.map": "/portfolio/static/css/main.0cf8eaae.css.map",
-    "main.8cd73935.js.map": "/portfolio/static/js/main.8cd73935.js.map"
+    "main.15323aea.css.map": "/portfolio/static/css/main.15323aea.css.map",
+    "main.56762f63.js.map": "/portfolio/static/js/main.56762f63.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cf8eaae.css",
-    "static/js/main.8cd73935.js"
+    "static/css/main.15323aea.css",
+    "static/js/main.56762f63.js"
   ]
 }
