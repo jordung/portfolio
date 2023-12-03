@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <div
-      className="pb-12 flex flex-col justify-center min-h-screen"
+      className="pb-12 flex flex-col justify-center h-[calc(100vh_-_4rem)]"
       id="contact"
     >
       <div className="py-5 px-10 flex flex-col items-start md:px-40">

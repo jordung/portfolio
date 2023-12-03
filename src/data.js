@@ -3,7 +3,7 @@ export const projects = [
     title: "Ketchup",
     subtitle: "React & NodeJS",
     description:
-      "Asynchronous stand-up application to transcend time and geographical boundaries and keep your entire team on the same page!",
+      "Asynchronous stand-up application to transcend time and geographical boundaries and keep your entire team on the same page",
     image: require("./assets/images/ketchup.png"),
     icon: require("./assets/icons/ketchup-logo.png"),
     github: "https://github.com/jordung/ketchup",
@@ -15,7 +15,7 @@ export const projects = [
     title: "Handshake",
     subtitle: "React & NodeJS",
     description:
-      "A volunteering app connecting potential volunteers to organisers!",
+      "A volunteering app connecting potential volunteers to organisers",
     image: require("./assets/images/handshake.png"),
     icon: require("./assets/icons/handshake-logo.png"),
     github: "https://github.com/jordung/project-handshake",
@@ -70,7 +70,8 @@ export const upcomingProjects = [
     icon: require("./assets/icons/drigmo.png"),
   },
   {
-    title: "Rocket's Academy Bootcamp Scheduler",
+    title: "Rocket Academy Scheduler",
     subtitle: "Working with Rocket Academy to rebrand their schedules page",
+    icon: require("./assets/icons/rocket-logo.png"),
   },
 ];

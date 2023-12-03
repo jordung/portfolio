@@ -1,11 +1,8 @@
-import { PiFilePdf } from "react-icons/pi";
 import resume from "../assets/jordan_ang_resume.pdf";
 
 function Navbar() {
-  const iconStyles = "cursor-pointer text-2xl h-5 w-5";
-
   return (
-    <div className="navbar fixed z-50 bg-base-100 w-screen">
+    <div className="navbar fixed z-50 bg-white w-screen">
       <div className="navbar-start">
         <div className="dropdown curosr-pointer xl:hidden">
           <label
@@ -75,10 +72,9 @@ function Navbar() {
           href={resume}
           target="_blank"
           rel="noreferrer"
-          className="btn btn-xs btn-link no-underline hover:no-underline md:btn-sm"
+          className="btn btn-link no-underline font-medium hover:text-base-300 hover:no-underline transition-all duration-200"
         >
           Resume
-          <PiFilePdf className={iconStyles} />
         </a>
       </div>
     </div>

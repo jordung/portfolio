@@ -24,8 +24,8 @@ function About() {
         </p>
         <div className="pt-8 w-full">
           <p className="font-medium">Tech Stack</p>
-          <div className="overflow-x-auto">
-            <table className="table bg-white">
+          <div className="overflow-x-auto mt-2">
+            <table className="table bg-base-100">
               {/* head */}
               <tbody>
                 {/* row 1 */}
